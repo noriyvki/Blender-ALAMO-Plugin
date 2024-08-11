@@ -855,7 +855,7 @@ class ALO_Importer(bpy.types.Operator):
                 exec('material.' + name + '= value')
 
         def setRenderToEevee():
-            bpy.context.scene.render.engine = 'BLENDER_EEVEE'
+            bpy.context.scene.render.engine = 'EEVEE_NEXT'
 
         def loadAnimations(filePath):
             #remove ending
